@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #2a2a72, #000000);
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}

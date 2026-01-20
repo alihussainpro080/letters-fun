@@ -1,0 +1,45 @@
+.display {
+  background-color: #000;
+  border: 10px solid #76c7c0;
+  border-radius: 20px;
+  padding: 40px;
+  min-height: 150px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 20px #76c7c0, inset 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display h1 {
+  font-size: 5rem;
+  color: #8be9fd;
+  text-shadow: 0 0 10px #8be9fd, 0 0 20px #8be9fd;
+  margin: 0;
+  letter-spacing: 0.5rem;
+  display: flex; 
+  transition: color 0.3s ease; 
+}
+
+.display h1.matched {
+  color: #c3e88d;
+  text-shadow: 0 0 10px #c3e88d, 0 0 20px #c3e88d;
+}
+
+.display h1 span {
+  animation: popIn 0.2s ease-in-out forwards;
+  display: inline-block;
+}
+
+
+@keyframes popIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

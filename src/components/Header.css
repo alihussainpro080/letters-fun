@@ -1,0 +1,48 @@
+.app-header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #fca311;
+  text-shadow: 0 0 5px #fca311;
+}
+
+.speak-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 5px;
+  transition: transform 0.2s;
+  color: white;
+}
+
+.speak-button:hover {
+  transform: scale(1.2);
+}
+
+.instructions-text {
+  color: white;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  max-width: 600px;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
